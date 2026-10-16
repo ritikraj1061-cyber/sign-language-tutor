@@ -16,7 +16,7 @@ cap = cv2.VideoCapture(0)
 label = input("Enter letter label (A-Z): ")
 
 sample_count = 0
-max_samples = 300
+max_samples = 500
 
 with open("dataset.csv", "a", newline="") as f:
 
@@ -71,7 +71,7 @@ with open("dataset.csv", "a", newline="") as f:
 
         cv2.putText(
             frame,
-            f"Samples: {sample_count}/300",
+            f"Samples: {sample_count}/500",
             (20,40),
             cv2.FONT_HERSHEY_SIMPLEX,
             1,
