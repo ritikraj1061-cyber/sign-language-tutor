@@ -45,7 +45,7 @@ Install the required libraries:
 pip install -r requirements.txt
 
 # RUN THIS PROJECT
-python word.py
+python test.py
 
 #AUTHOR
 Ritik Raj
