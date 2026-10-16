@@ -3,3 +3,4 @@ mediapipe
 numpy
 pandas
 scikit-learn
+pyttsx3
